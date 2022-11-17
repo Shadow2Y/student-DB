@@ -1,0 +1,63 @@
+body {
+    background-color: #fff;
+    backdrop-filter: 500;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.gen {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+}
+.gen input {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 40vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.gen button {
+    margin-top: 2%;
+    margin-left: 2%;
+    width : 10vh;
+    height : 6vh;
+}
+
+#gable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#gable td, #gable th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+#gable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}  
+#gable tr:hover {
+    background-color: #ddd;
+}
+  
+#gable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #A020F0;
+    color: white;
+}
